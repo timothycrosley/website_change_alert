@@ -16,3 +16,11 @@ _________________
 _________________
 
 **website_change_alert** Script to quickly alert when a website changes.
+
+This was built to quickly alert of website changes, primarily for to identify when new vaccine doses get posted on a sign up genius page.
+
+In order to utilize you need a twilio account (a free account is fine), and any machine with the internet connected to run the script continuously.
+
+Once the site is seen as having changed the script will send the given phone numbers the url and stop running.
+
+It's recommended that you set your phone to always alert you when your twilio phone number sends you a text message to avoid missing the site change.
